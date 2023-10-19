@@ -5,7 +5,7 @@ import Header from "./Header"
 import styled from "@emotion/styled"
 import Scripts from "src/layouts/RootLayout/Scripts"
 import useGtagEffect from "./useGtagEffect"
-import { Analytics } from "@vercel/analytics/react"
+
 type Props = {
   children: ReactNode
 }
@@ -19,9 +19,7 @@ const RootLayout = ({ children }: Props) => {
       {/* // TODO: replace react query */}
       {/* {metaConfig.type !== "Paper" && <Header />} */}
       <Header fullWidth={false} />
-      <StyledMain>
-        {children} <Analytics />
-      </StyledMain>
+      <StyledMain>{children}</StyledMain>
     </ThemeProvider>
   )
 }
