@@ -28,7 +28,13 @@ const StyledWrapper = styled.div`
   z-index: ${zIndexes.header};
   position: sticky;
   top: 0;
+<<<<<<< HEAD
   background-color: ${({ theme }) => theme.colors.gray2};
+=======
+
+  background-color: ${({ theme }) => theme.colors.gray6};
+
+>>>>>>> a9ec668369bf7a6d92f5a67fb758d7586cb6749a
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
   .container {
