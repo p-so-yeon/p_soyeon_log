@@ -44,10 +44,9 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-<<<<<<< HEAD
-=======
 
->>>>>>> a9ec668369bf7a6d92f5a67fb758d7586cb6749a
+
+
       </StyledWrapper>
     </>
   )
